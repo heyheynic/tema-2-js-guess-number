@@ -49,7 +49,7 @@ function checkGuess() {
   }
 
   // Give additional hints based on the difference
-  if (difference <= 5 && difference !== 0) {
+  if (difference <= 3 && difference !== 0) {
     notCorrect.textContent = " 🔥🔥🔥 You're very close! 🔥🔥🔥";
     notCorrect.style.underline;
   } else if (difference <= 10 && difference !== 0) {
